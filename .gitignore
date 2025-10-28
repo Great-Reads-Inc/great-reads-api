@@ -1,14 +1,39 @@
 
-.roo/
-.roomodes
-context_portal/
-memory-bank/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
 
-.roo/
-.roomodes
-context_portal/
-memory-bank/
+# Pipenv
+# Pipfile and Pipfile.lock should be committed
+# but the virtual environment itself should be ignored.
 
+# Django
+*.log
+*.pot
+*.mo
+*.js.map
+*.css.map
+db.sqlite3
+/media
+/static
+
+# IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Roo-specific files
 .roo/
 .roomodes
 context_portal/

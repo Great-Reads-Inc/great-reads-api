@@ -50,7 +50,7 @@ Table Book {
   id int pk
   isbn string
   title string
-  pub_date timestamp
+  pub_date date
   page_count int
 }
 
