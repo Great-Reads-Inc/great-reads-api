@@ -16,7 +16,33 @@ This application aims to simplify how we keep track of the books we read, in add
 3. Deploy both client and api using Digital Ocean (TBD)
 
 ### Technical Specifications
-1. 
+
+#### System Architecture
+```
+great-reads-app
+├── great-reads-api
+│   └── Dockerfile
+├── great-reads-client
+│   └── Dockerfile
+└── great-reads-infrastructure
+    └── docker-compose.yaml
+```
+
+#### Docker Stuff
+1. This System will be setup and run in a containerized development environment for easy setup for the development team among different machines & operating systems.
+2. We will define the containerized environment with a Docker Compose file that will live in the infrastructure repo. This compose file will spin up 3 services: API, Client, and Database.
+
+#### Tech Stack
+
+##### API
+- Python/Django
+
+
+##### Client
+- JavaScript/TypeScript, React, Vite
+
+##### Database
+- PostgreSQL
 
 
 ```dbml
