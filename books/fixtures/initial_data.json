@@ -1,0 +1,513 @@
+[
+  {
+    "model": "books.author",
+    "pk": 1,
+    "fields": {
+      "first_name": "Stephen",
+      "last_name": "King",
+      "about": "Stephen Edwin King is an American author of horror, supernatural fiction, suspense, crime, science-fiction, and fantasy novels."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 2,
+    "fields": {
+      "first_name": "J.K.",
+      "last_name": "Rowling",
+      "about": "Joanne Rowling, also known by her pen name J. K. Rowling, is a British author, philanthropist, film producer, and screenwriter."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 3,
+    "fields": {
+      "first_name": "George",
+      "last_name": "Orwell",
+      "about": "Eric Arthur Blair, better known by his pen name George Orwell, was an English novelist, essayist, journalist, and critic."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 4,
+    "fields": {
+      "first_name": "Agatha",
+      "last_name": "Christie",
+      "about": "Dame Agatha Mary Clarissa Christie, Lady Mallowan, was an English writer known for her sixty-six detective novels and fourteen short story collections."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 5,
+    "fields": {
+      "first_name": "Jane",
+      "last_name": "Austen",
+      "about": "Jane Austen was an English novelist known primarily for her six major novels, which interpret, critique and comment upon the British landed gentry at the end of the 18th century."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 6,
+    "fields": {
+      "first_name": "F. Scott",
+      "last_name": "Fitzgerald",
+      "about": "Francis Scott Key Fitzgerald was an American novelist, essayist, and short story writer."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 7,
+    "fields": {
+      "first_name": "Harper",
+      "last_name": "Lee",
+      "about": "Nelle Harper Lee was an American novelist best known for her 1960 novel To Kill a Mockingbird."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 8,
+    "fields": {
+      "first_name": "Ernest",
+      "last_name": "Hemingway",
+      "about": "Ernest Miller Hemingway was an American novelist, short-story writer, journalist, and sportsman."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 9,
+    "fields": {
+      "first_name": "Mark",
+      "last_name": "Twain",
+      "about": "Samuel Langhorne Clemens, known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 10,
+    "fields": {
+      "first_name": "Virginia",
+      "last_name": "Woolf",
+      "about": "Adeline Virginia Woolf was an English writer, considered one of the most important modernist 20th-century authors."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 11,
+    "fields": {
+      "first_name": "J.R.R.",
+      "last_name": "Tolkien",
+      "about": "John Ronald Reuel Tolkien was an English writer, poet, philologist, and academic, best known as the author of the high fantasy works The Hobbit and The Lord of the Rings."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 12,
+    "fields": {
+      "first_name": "Paulo",
+      "last_name": "Coelho",
+      "about": "Paulo Coelho de Souza is a Brazilian lyricist and novelist, best known for his novel The Alchemist."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 13,
+    "fields": {
+      "first_name": "Stieg",
+      "last_name": "Larsson",
+      "about": "Karl Stig-Erland Larsson was a Swedish journalist and writer. He is best known for writing the Millennium trilogy of crime novels."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 14,
+    "fields": {
+      "first_name": "Cormac",
+      "last_name": "McCarthy",
+      "about": "Charles Joseph McCarthy Jr., known professionally as Cormac McCarthy, was an American novelist, playwright, and screenwriter."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 15,
+    "fields": {
+      "first_name": "Frank",
+      "last_name": "Herbert",
+      "about": "Franklin Patrick Herbert Jr. was an American science fiction author best known for the 1965 novel Dune and its five sequels."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 16,
+    "fields": {
+      "first_name": "J.D.",
+      "last_name": "Salinger",
+      "about": "Jerome David Salinger was an American writer known for his widely read novel The Catcher in the Rye."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 17,
+    "fields": {
+      "first_name": "Gillian",
+      "last_name": "Flynn",
+      "about": "Gillian Flynn is an American writer. She has published three novels, Sharp Objects, Dark Places, and Gone Girl."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 18,
+    "fields": {
+      "first_name": "Alex",
+      "last_name": "Michaelides",
+      "about": "Alex Michaelides is a British-Cypriot author of psychological thriller novels. His debut novel, The Silent Patient, was a New York Times bestseller."
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 19,
+    "fields": {
+      "first_name": "Delia",
+      "last_name": "Owens",
+      "about": "Delia Owens is an American author and zoologist. She is best known for her 2018 novel Where the Crawdads Sing."
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 1,
+    "fields": {
+      "name": "Horror",
+      "definition": "A genre of fiction whose purpose is to create feelings of fear, dread, repulsion, or terror in the audience."
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 2,
+    "fields": {
+      "name": "Fantasy",
+      "definition": "A genre of speculative fiction set in a fictional universe, often inspired by real world myth and folklore."
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 3,
+    "fields": {
+      "name": "Dystopian",
+      "definition": "A genre of fiction that explores social and political structures in a dark, nightmarish future."
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 4,
+    "fields": {
+      "name": "Mystery",
+      "definition": "A genre of fiction that involves a crime or other puzzling event, and a protagonist who investigates it."
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 5,
+    "fields": {
+      "name": "Romance",
+      "definition": "A genre of fiction that focuses on the romantic relationship between two or more characters."
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 6,
+    "fields": {
+      "name": "Classic",
+      "definition": "A book that has been recognized for its literary merit and has stood the test of time."
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 7,
+    "fields": {
+      "name": "Literary Fiction",
+      "definition": "A genre of fiction that focuses on character development, themes, and literary style, often exploring complex human experiences."
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 8,
+    "fields": {
+      "name": "Adventure",
+      "definition": "A genre of fiction that typically features a protagonist who embarks on a journey or quest, often facing danger and excitement."
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 9,
+    "fields": {
+      "name": "Historical Fiction",
+      "definition": "A genre of fiction that is set in the past and often incorporates real historical events and figures."
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 10,
+    "fields": {
+      "name": "Science Fiction",
+      "definition": "A genre of speculative fiction that typically deals with imaginative and futuristic concepts such as advanced science and technology, space exploration, time travel, parallel universes, and extraterrestrial life."
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 1,
+    "fields": {
+      "isbn": "9780307743657",
+      "title": "The Shining",
+      "pub_date": "1977-01-28",
+      "page_count": 447,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51j-g-0-0L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 2,
+    "fields": {
+      "isbn": "9780439023528",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "pub_date": "1997-06-26",
+      "page_count": 309,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51PFjG300PL._SX331_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 3,
+    "fields": {
+      "isbn": "9780451524935",
+      "title": "1984",
+      "pub_date": "1949-06-08",
+      "page_count": 328,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/41yJ75gpV-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 4,
+    "fields": {
+      "isbn": "9780062073488",
+      "title": "And Then There Were None",
+      "pub_date": "1939-11-06",
+      "page_count": 272,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 5,
+    "fields": {
+      "isbn": "9780141439518",
+      "title": "Pride and Prejudice",
+      "pub_date": "1813-01-28",
+      "page_count": 279,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 6,
+    "fields": {
+      "isbn": "9780743273565",
+      "title": "The Great Gatsby",
+      "pub_date": "1925-04-10",
+      "page_count": 180,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 7,
+    "fields": {
+      "isbn": "9780061120084",
+      "title": "To Kill a Mockingbird",
+      "pub_date": "1960-07-11",
+      "page_count": 336,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 8,
+    "fields": {
+      "isbn": "9780684801223",
+      "title": "The Old Man and the Sea",
+      "pub_date": "1952-09-01",
+      "page_count": 127,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 9,
+    "fields": {
+      "isbn": "9780486280615",
+      "title": "The Adventures of Tom Sawyer",
+      "pub_date": "1876-01-01",
+      "page_count": 224,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 10,
+    "fields": {
+      "isbn": "9780156030026",
+      "title": "Mrs Dalloway",
+      "pub_date": "1925-05-14",
+      "page_count": 194,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 11,
+    "fields": {
+      "isbn": "9780345339683",
+      "title": "The Hobbit",
+      "pub_date": "1937-09-21",
+      "page_count": 310,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 12,
+    "fields": {
+      "isbn": "9780743273566",
+      "title": "Animal Farm",
+      "pub_date": "1945-08-17",
+      "page_count": 112,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 13,
+    "fields": {
+      "isbn": "9780060935467",
+      "title": "The Alchemist",
+      "pub_date": "1988-01-01",
+      "page_count": 163,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 14,
+    "fields": {
+      "isbn": "9780385537858",
+      "title": "The Girl with the Dragon Tattoo",
+      "pub_date": "2005-08-01",
+      "page_count": 464,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 15,
+    "fields": {
+      "isbn": "9780307474278",
+      "title": "The Road",
+      "pub_date": "2006-09-26",
+      "page_count": 287,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 16,
+    "fields": {
+      "isbn": "9780345391803",
+      "title": "Dune",
+      "pub_date": "1965-08-01",
+      "page_count": 412,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 17,
+    "fields": {
+      "isbn": "9780743273567",
+      "title": "The Catcher in the Rye",
+      "pub_date": "1951-07-16",
+      "page_count": 277,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 18,
+    "fields": {
+      "isbn": "9780307277793",
+      "title": "Gone Girl",
+      "pub_date": "2012-05-24",
+      "page_count": 415,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 19,
+    "fields": {
+      "isbn": "9780307277794",
+      "title": "The Silent Patient",
+      "pub_date": "2019-02-05",
+      "page_count": 336,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 20,
+    "fields": {
+      "isbn": "9780307277795",
+      "title": "Where the Crawdads Sing",
+      "pub_date": "2018-08-14",
+      "page_count": 384,
+      "authors": [],
+      "genres": [],
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
+    }
+  }
+]

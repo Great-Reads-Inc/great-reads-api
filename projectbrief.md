@@ -52,6 +52,7 @@ Table Book {
   title string
   pub_date date
   page_count int
+  cover_image str
 }
 
 Table BookAuthor {

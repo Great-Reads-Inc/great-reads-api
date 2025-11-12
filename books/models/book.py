@@ -9,6 +9,7 @@ class Book(models.Model):
     page_count = models.IntegerField() # Corrected to IntegerField()
     authors = models.ManyToManyField(Author, related_name='books')
     genres = models.ManyToManyField(Genre, related_name='books_by_genre') # Many-to-Many with Genre
+    cover_image = models.CharField(max_length=255)
 
     def __str__(self):
         return self.title
