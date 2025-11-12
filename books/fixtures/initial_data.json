@@ -251,6 +251,27 @@
     }
   },
   {
+    "model": "books.status",
+    "pk": 1,
+    "fields": {
+      "name": "Want to Read"
+    }
+  },
+  {
+    "model": "books.status",
+    "pk": 2,
+    "fields": {
+      "name": "Currently Reading"
+    }
+  },
+  {
+    "model": "books.status",
+    "pk": 3,
+    "fields": {
+      "name": "Read"
+    }
+  },
+  {
     "model": "books.book",
     "pk": 1,
     "fields": {
@@ -258,8 +279,8 @@
       "title": "The Shining",
       "pub_date": "1977-01-28",
       "page_count": 447,
-      "authors": [],
-      "genres": [],
+      "authors": [1],
+      "genres": [1],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51j-g-0-0L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -271,8 +292,8 @@
       "title": "Harry Potter and the Sorcerer's Stone",
       "pub_date": "1997-06-26",
       "page_count": 309,
-      "authors": [],
-      "genres": [],
+      "authors": [2],
+      "genres": [2, 8],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51PFjG300PL._SX331_BO1,204,203,200_.jpg"
     }
   },
@@ -284,8 +305,8 @@
       "title": "1984",
       "pub_date": "1949-06-08",
       "page_count": 328,
-      "authors": [],
-      "genres": [],
+      "authors": [3],
+      "genres": [3, 6],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/41yJ75gpV-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -297,8 +318,8 @@
       "title": "And Then There Were None",
       "pub_date": "1939-11-06",
       "page_count": 272,
-      "authors": [],
-      "genres": [],
+      "authors": [4],
+      "genres": [4, 6],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -310,8 +331,8 @@
       "title": "Pride and Prejudice",
       "pub_date": "1813-01-28",
       "page_count": 279,
-      "authors": [],
-      "genres": [],
+      "authors": [5],
+      "genres": [5, 6],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -323,8 +344,8 @@
       "title": "The Great Gatsby",
       "pub_date": "1925-04-10",
       "page_count": 180,
-      "authors": [],
-      "genres": [],
+      "authors": [6],
+      "genres": [6, 7],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -336,8 +357,8 @@
       "title": "To Kill a Mockingbird",
       "pub_date": "1960-07-11",
       "page_count": 336,
-      "authors": [],
-      "genres": [],
+      "authors": [7],
+      "genres": [6, 9],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -349,8 +370,8 @@
       "title": "The Old Man and the Sea",
       "pub_date": "1952-09-01",
       "page_count": 127,
-      "authors": [],
-      "genres": [],
+      "authors": [8],
+      "genres": [6, 7],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -362,8 +383,8 @@
       "title": "The Adventures of Tom Sawyer",
       "pub_date": "1876-01-01",
       "page_count": 224,
-      "authors": [],
-      "genres": [],
+      "authors": [9],
+      "genres": [6, 8],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -375,8 +396,8 @@
       "title": "Mrs Dalloway",
       "pub_date": "1925-05-14",
       "page_count": 194,
-      "authors": [],
-      "genres": [],
+      "authors": [10],
+      "genres": [6, 7],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -388,8 +409,8 @@
       "title": "The Hobbit",
       "pub_date": "1937-09-21",
       "page_count": 310,
-      "authors": [],
-      "genres": [],
+      "authors": [11],
+      "genres": [2, 8],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -401,8 +422,8 @@
       "title": "Animal Farm",
       "pub_date": "1945-08-17",
       "page_count": 112,
-      "authors": [],
-      "genres": [],
+      "authors": [3],
+      "genres": [3, 6],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -414,8 +435,8 @@
       "title": "The Alchemist",
       "pub_date": "1988-01-01",
       "page_count": 163,
-      "authors": [],
-      "genres": [],
+      "authors": [12],
+      "genres": [2, 8],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -427,8 +448,8 @@
       "title": "The Girl with the Dragon Tattoo",
       "pub_date": "2005-08-01",
       "page_count": 464,
-      "authors": [],
-      "genres": [],
+      "authors": [13],
+      "genres": [4],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -440,8 +461,8 @@
       "title": "The Road",
       "pub_date": "2006-09-26",
       "page_count": 287,
-      "authors": [],
-      "genres": [],
+      "authors": [14],
+      "genres": [3, 7],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -453,8 +474,8 @@
       "title": "Dune",
       "pub_date": "1965-08-01",
       "page_count": 412,
-      "authors": [],
-      "genres": [],
+      "authors": [15],
+      "genres": [10, 8],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -466,8 +487,8 @@
       "title": "The Catcher in the Rye",
       "pub_date": "1951-07-16",
       "page_count": 277,
-      "authors": [],
-      "genres": [],
+      "authors": [16],
+      "genres": [6, 7],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -479,8 +500,8 @@
       "title": "Gone Girl",
       "pub_date": "2012-05-24",
       "page_count": 415,
-      "authors": [],
-      "genres": [],
+      "authors": [17],
+      "genres": [4],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -492,8 +513,8 @@
       "title": "The Silent Patient",
       "pub_date": "2019-02-05",
       "page_count": 336,
-      "authors": [],
-      "genres": [],
+      "authors": [18],
+      "genres": [4],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   },
@@ -505,8 +526,8 @@
       "title": "Where the Crawdads Sing",
       "pub_date": "2018-08-14",
       "page_count": 384,
-      "authors": [],
-      "genres": [],
+      "authors": [19],
+      "genres": [4, 9],
       "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51-X-X-X-L._SX322_BO1,204,203,200_.jpg"
     }
   }
